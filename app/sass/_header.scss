@@ -1,0 +1,144 @@
+.top-line{
+	background-color: #F9F9F9;
+	border-top:1px #EAEAEA solid;
+	border-bottom:1px #EAEAEA solid;
+}
+.logo-wrap{
+	padding: 8px 0 10px;
+	display: flex;
+	align-items: baseline;
+
+}
+.logo-text{
+	position: relative;
+	bottom:7px;
+	font-size: 	18px;
+	font-family: $open-s-l;
+	text-align: center;
+	&:before{
+		height: 1px;
+		width: 22px;
+		background-color: #005862;
+		content:" ";
+		margin: 0  20px 0 18px;
+		display: inline-block;
+		margin-bottom: 4px;
+
+	}
+}
+.header-top-info{
+
+	display: flex;
+	justify-content: flex-end;
+}
+.lg-wrap{
+	padding: 23px 5px 23px 0 ; 
+	
+}
+.lg{
+	background-color:#40BFB6;
+	padding:10px 27px 10px 12px;
+	color:#fff;
+	border-radius: 50px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-family: $open-s-r;
+	position: relative;
+	&:after{
+		width: 10px;
+		height: 6px;
+		content: " ";
+		position: absolute;
+		top:16px;
+		right:12px;
+		background-image: url(../img/irrow-down.png);
+		background-position: center ;
+		background-repeat: no-repeat;
+	}
+
+}
+.phone-wrap{
+	padding-top: 30px;
+	padding-right: 5px;
+	margin-right: 37px;
+	
+	.phone{
+		font-family: $open-s-r;
+		font-size: 26px;
+		color: #242e37;
+	}
+
+}
+
+.main-menu{
+	margin:6px 10px;
+	ul{
+		padding:0;
+		margin:0;
+		list-style-type: none;
+	}
+}
+.main-menu-hamburger{
+	display: none;
+}
+.b-hamburger{
+	display: none;
+}
+.main-menu-wrap{
+	display: flex;
+	flex-direction: row;
+}
+nav{
+	margin-left: -15px;
+	position: relative;	
+}
+.main-menu__items{
+	a{
+		text-decoration: none;
+		color:#000;
+		font-size: 16px;
+		font-family: $open-s-l;
+		padding: 10px 14px;
+		display: inline-block;
+
+		&:hover{
+			border-radius: 50px;
+			border-top-left-radius: 0;
+			background-color: #3EB1A5;
+			
+			
+			
+		}
+
+		
+	}
+	
+}
+.main-menu-hamburger{
+	position: absolute;	
+	background: #Fff;
+	width:100%;
+	z-index: 3;
+}
+.booking-wrap{
+	padding: 10px 0;
+	font-size: 16px;
+	font-family: $open-s-r;
+	text-align: center;
+	img{
+		vertical-align: middle;
+		margin: 0 5px;
+	}
+
+	
+
+}
+span.name-menu-hamburger{
+	vertical-align: top;
+	font-size: 26px;
+	font-family: open-sans-b;
+}
+.b-hamburger span{
+	vertical-align: middle;
+}

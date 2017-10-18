@@ -1,0 +1,52 @@
+.place{
+	margin-top: 24px;
+
+}
+.place__items{
+	background-repeat: no-repeat;
+	background-position:  center;
+	display: flex;
+	height: 460px;
+	color:#fff;
+	font-size: 34px;
+	letter-spacing: 6.8px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 35px;
+	font-family: playfair-display-bold;
+	&.island{
+		background-image: url('../img/place-island.jpg');
+	}
+	&.services{
+		background-image: url('../img/place-services.jpg');
+		font-size: 40px;
+
+	}
+	&.event{
+		background-image: url('../img/place-event.jpg');
+	}
+}
+.place-title{
+	
+	span{
+		font-family: $open-s-b;
+	}
+}
+.place__items-fishing{
+	display: flex;
+	margin-top: 30px;
+	background-image: url("../img/place-fishing.jpg");
+	height: 260px;
+	letter-spacing: 6.8px;
+	width: 100%;
+	text-align: center;
+	color:#fff;
+	font-size: 34px;
+	text-transform: uppercase;
+	background-position: top center;
+}
+.island-title, .services-title , .event-title,.fishing-title{
+margin:auto;
+padding-top:22px;
+max-width: 305px;
+}

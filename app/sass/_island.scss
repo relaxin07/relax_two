@@ -1,0 +1,72 @@
+.island{
+	.booking-date-wrap{
+		margin-top: 7%;
+		text-align: center;		
+		input{
+			height: 75px;
+			font-size: 20px;
+			font-family: 'FuturaPTLight';
+			background-image: url('../img/input-bg.png');
+			background-repeat: no-repeat;
+			outline: none;
+			border:none;
+			background-position: 15px center;
+
+		}
+		.input-item-1{
+			padding-left: 68px;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+			width: 258px;
+		}
+		.input-item-2{
+			margin-left: -5px;
+			padding-left: 70px;
+			width:296px;
+		}
+		.booking-btn{
+			width: 195px;
+			padding: 0;
+			text-align: center;
+			margin-left: -5px;
+			font-family: FuturaPTMeduim;
+			font-size: 16px;
+			color:#fff;
+			background: #45a344;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			cursor:pointer;
+		}
+	}
+}
+.island-logo{
+	margin-top: 30px;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.island-main-img-wrap{
+	position: relative;
+}
+.island-main-img{
+	position: absolute;
+	img{
+		width:100%;
+	}
+}
+.island-text-wrap{
+	
+	margin-top: 14%;
+}
+.island__text {
+	margin-right: 30px;
+	background-color: #fff;
+	padding:25px 30px;
+	font-size: 22px;
+	color:#45a344;
+	border-radius: 5px;
+	font-family: $open-s-l;
+	font-style: italic;
+}

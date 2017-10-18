@@ -1,0 +1,54 @@
+footer.footer
+	.map-wrap
+		.info-map
+			.info-flex-top
+				.info-map__item.gps GPS координаты: 
+					br
+					span 60.94432, 29.76486
+				.qr-code
+					img(src="img/qr-code.jpg")
+					a.btn-map(href="#") как проехать
+				.info-map__item.info
+					p почта для бронирования 
+						br
+						span ostrov.booking@yandex.ru
+					p почта для агенств / сотрудничество 
+						br
+						span ostrov.company@yandex.ru
+					p Whats’aap
+						br
+						span 8 921 595 7053
+			.info-flex-bottom
+				.copyright 2016 - 2017 
+
+					span © Эко Клуб «Остров».
+					br
+					| Не является публичной офертой.
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123927.30051768103!2d29.788849929287622!3d60.96614204250741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4697673157770849%3A0xb85a65abbb51f622!2z0K3QutC-INCa0LvRg9CxIMKr0J7RgdGC0YDQvtCywrs!5e0!3m2!1sru!2sua!4v1507733473973"  class="map"  height="665" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+	.container
+		.row
+			.col-md-9
+					.footer-menu-wrap
+						ul
+							-var items = [" Коттеджи", "Ресторан", "Баня","План территори","Галлерея","Услуги","Отзывы","Контакты"];
+										for name in items
+											li.footer-menu__items
+												a(href="#")=name
+			.col-lg-3.col-12
+				.footer-social-icon-wrap
+						ul.footer-social-icon
+							li.footer-social-icon__items
+								a(href="")
+									img(src="img/icon-YT.png", alt="")
+							li.footer-social-icon__items
+								a(href="")
+									img(src="img/icon-vk.png", alt="")
+							li.footer-social-icon__items
+								a(href="")
+									img(src="img/icon-inst.png", alt="")
+
+
+
+
+						

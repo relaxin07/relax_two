@@ -1,0 +1,474 @@
+
+
+@media all and (max-width: 1199px) {
+	.gallery ul .img-l {
+		min-height: 1px;
+	}
+	.gallery ul img{
+		max-width: 100%;
+	}
+
+	.tab-item__info{
+		font-size: 14px;
+	}
+	.cottedj__name{
+		font-size: 28px;
+	}
+	.gallery ul  .item-text{
+		height:190px;
+		font-size: 22px;
+	}
+	.cottedl__discrpt{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+	.tab{
+		font-size: 18px;
+		margin-right: 20px;
+	}
+	.bonus-content.item-3, .bonus-content.item-1 {
+		.bonus-text{
+			left: 58%;
+		}
+	}
+
+	.main-menu-wrap{
+		justify-content: center;
+		flex-wrap:wrap;
+	}
+	.header-slider{
+		.slider__title{
+			font-size: 34px;
+			padding-left:40px;
+		}
+		.slider__sub-text{
+			font-size: 20px;
+			padding-left: 40px;
+		}
+		.owl-nav{
+			width: 230px !important;
+			.owl-prev{
+				left:50px;
+				border:1px solid #fff;
+				color:#fff;
+			}
+			.owl-next{
+				right:50px;
+				border:1px solid #fff;
+				color:#fff;
+				
+			}
+		}
+
+	}
+	.bonus{
+		img{
+			max-width: 100%;
+		}
+		
+
+		.text-top{
+			font-size:90px ;
+		}
+		
+	}
+	.contats__title{
+		font-size: 26px ;
+	}
+	
+	.attention{
+		left:250px;
+	}
+
+
+
+	.nature-content__title{
+		font-size: 22px;
+	}
+	.nature-content__info{
+		font-size: 16px;
+	}
+	.nature-slider .owl-nav{
+		right:115px;
+	}
+
+
+	.island__text{
+		font-size: 19px;
+	}
+	
+	.info-map {
+
+
+		margin-left: 0; 
+		width: 450px;
+
+	}
+	.btn-map {
+		padding: 25px 40px;
+		margin-left: 40px;
+
+	}
+	.place__items ,.fishing-title {
+		font-size: 30px;
+	}
+	.services-title{
+		font-size: 36px;
+	}
+	.cottedj-info{
+		margin-left: 40px;
+	}
+	nav{
+		margin-left: 0;
+	}
+	.main-menu{
+		margin:0;
+	}
+	.contacts-email {
+		margin-left: 0;
+		margin-top: 15px;
+	}
+	.contats__title{
+		margin-top: 20px;
+	}
+	
+}
+@media all and (max-width: 997px) {
+	.bonus-content.item-3 .bonus-text, .bonus-content.item-1 .bonus-text{
+		left:48%;
+	}
+	.gallery ul .item-text {
+		height: 142px;
+		font-size: 20px;
+
+	}
+	.nature-slider .owl-nav{
+		top:-60px;
+		left:10px;
+	} 
+	.nature-slider {
+		margin-top: 45px;
+	}
+	.nature-content__info{
+		padding-right: 0;
+	}
+	h2{
+		font-size: 26px;
+	}
+	.contacts-img-wrap{
+		display: none;
+	}
+	.contacts,.contacts-second{
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.b-hamburger{
+		display: block;
+	}
+	.bonus .text-top{
+		font-size: 70px;
+	}
+	.item-5 .bonus-text{
+		left:0;
+	}
+	.nature-content__info{
+		font-size: 14px;
+		font-family: $open-s-r;
+	}
+	.main-menu-wrap{
+		display: none;
+	}
+
+	
+	.booking-wrap{
+		padding-top: 18px;
+	}
+	.slider__title{
+		text-align: center;
+	}
+	.slider__sub-text{
+		text-align: center;
+	}
+	.carousel-wrap{
+		margin-top: -40px;
+	}
+	.slider-wrap .booking-date-wrap {
+		.input-item-1,.input-item-2{
+			width: 220px;
+		}
+	}
+	.ui-datepicker-calendar{
+		width:222px;
+	}
+	.contats__title{
+		font-size: 20px;
+		margin-top: 5%;
+	}
+	.contacts-email{
+		margin-left:0;
+		margin-top: 15px;
+	}
+	.cottedj-info{
+		width:82%;
+	}
+	.contacts-form-content .contacts__btn{
+		font-family: $open-s-r;
+	}
+	.contacts-btn-wrap{
+		margin-top: 25px;
+	}
+	iframe.map{
+		height: 500px;
+	}
+	.info-map__item.gps{
+		font-size: 22px;
+	}
+	.qr-code{
+		margin-top: 20px;
+	}
+	.qr-code img{
+		zoom:0.8;
+	}
+	.info-map__item.info p{
+		font-size: 16px;
+	}
+	.info-map__item.info{
+		margin-top: 25px;
+	}
+	.info-map__item.info p{
+		margin-top: 20px;
+	}
+	.copyright{
+		margin-top: 30px;
+	}
+	.btn-map {
+		padding: 20px 30px;
+		margin-left: 10%;
+	}
+	.contacts-form-content .contacts-phone, .contacts-form-content .contacts-email{
+		display: block;
+	}
+	.footer-menu-wrap{
+		display: none;
+	}
+	.header-top-info{
+		justify-content:flex-start;
+	}
+	.attention{
+		max-width: 100%;
+		left:0;
+	}
+	.island__text{
+		padding:15px 15px;
+		font-size: 16px;
+	}
+	.island .booking-date-wrap{
+		.booking-btn{
+			border-radius: 5px;
+		}
+	} 
+	.fixed{
+		position: fixed;
+		z-index: 9999;
+		width: 100%;
+		top:0;
+		background: rgb(244,244,244);
+
+	}
+	.info-map{
+		width: 100%;
+		position: static;
+		text-align: center;
+	}
+}
+@media all and (max-width: 767px) {
+	.gallery ul .item-text{
+		height: 105px;
+		padding-top: 5px;
+		font-size:12px;
+	}
+	.footer{
+		margin-top: 50px;
+	}
+	.qr-code{
+		display: none;
+	}
+	
+	.btn-map{
+		margin-left: 0;
+	}
+	
+	.island .booking-date-wrap {
+		.input-item-1,.input-item-2{
+			border-radius: 5px;
+			display: block;
+			margin-top: 5px;
+			width: 220px;
+			margin-left: 0;
+		}
+
+	}
+	.island__text{
+		padding: 15px 0 15px 15px;
+
+	}
+
+
+	.island .booking-date-wrap{
+		text-align: left;
+		.booking-btn{
+			margin-left: 0;
+			border-radius: 5px;
+		}
+	} 
+	.nature-content-wrap{
+		flex-direction: column;
+	}
+	.nature-content{
+		padding-left: 0;
+		width: 100%;
+		order:-1;
+		margin-bottom: 10px;
+	}
+
+	.cottedj-info{
+		width: 100%;
+		margin-left: 0;
+	}
+	.cottedj-img-wrap{
+		display: none;
+	}
+	.hamburger{
+		text-align: center;
+	}
+	.bonus .bonus-content.item-1{
+		margin-top: 20px;
+	}
+	.bonus .bonus-content{
+		margin-top: 130px;
+	}
+	.bonus-text .sub-text{
+		font-size: 16px;
+	}
+	.bonus-text{
+		left:10px;
+	}
+
+
+}
+
+@media all and  (max-width: 575px) {
+	.gallery{
+		display: none;
+	}
+	.attention {
+		.left ,.right{
+			width: 100%;;
+		}
+	}
+	.island-text-wrap{
+		margin-top: 5%;
+	}
+	.island__text{
+		font-size: 14px;
+	}
+	.tabs{
+		border-bottom:0;
+	}
+	.wrapper{
+		overflow-x: scroll;
+
+	}
+	.cottedj-slider .owl-nav{
+		left:0;
+	}
+	.cottedj__name .price{
+		display: block;
+	}
+	.header-slider .slider__title{
+		padding-left: 0;
+	}
+	.slider-wrap .booking-date-wrap .booking-btn{
+		border-radius: 10px;
+	}
+	.slider-wrap .booking-date-wrap{
+		top:38%;
+		left:5%;
+		margin-left: 0;
+		input{
+			margin-left: 0!important;
+			border-radius: 10px;
+			display: block;
+			margin-top: 5px;
+		}
+	}
+	.header-slider .slider__sub-text{
+		font-size: 16px;
+	}
+	.header-slider .slider__title{
+		font-size: 24px;
+	} 
+	.header-slider .owl-nav{
+		top:38%;
+	}
+	.logo-wrap{
+		flex-direction: column;
+		align-items:center;
+	}
+	.logo-text{
+		margin-top: 10px;
+	}
+	.header-top-info{
+		justify-content: space-around;
+	}
+	.booking-wrap{
+		font-size: 14px;
+
+	}
+	.phone-wrap .phone{
+		font-size: 22px;
+	}
+	.slider-content{
+		padding-top: 10px;
+	}
+	.place{
+		margin-top: 24px;
+		.row div[class^=col]:last-child{
+			padding-right: 15px !important;
+		}
+		.row div[class^=col]:first-child{
+			padding-left: 15px !important;
+		}
+	}
+
+}
+
+@media (min-width: 1200px){
+	.container {
+		width: 1170px !important;
+		max-width: 100%;
+	}
+	.row {
+		margin-right: -30px !important;
+		margin-left: -30px !important;
+	}
+
+
+}
+@media all and  (max-width: 410px){
+
+	.bonus .text-top{
+		font-size: 55px;
+	}
+	.bonus-content.item-3 .bonus-text{
+		left:40%;
+	}
+}
+@media all and (min-width: 1200px) and (max-width: 1320px){
+
+.bonus-content.item-5 >.bonus-text {
+    left: 33px;
+}
+}

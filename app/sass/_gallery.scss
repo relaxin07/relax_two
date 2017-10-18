@@ -1,0 +1,43 @@
+.gallery{
+	margin-top: 110px;
+	ul{
+		margin:0;
+		padding:0;
+		list-style-type: none;
+		width: 100%;
+		.item-text{
+			height: 255px;
+		}
+
+		.img-4{
+			z-index: 1;
+			position: relative;
+		}
+		.img-l{
+			min-height: 519px;
+		}
+		img{
+			display: block;
+				
+		}
+		li{
+			width:32%;
+		}
+		.item-text{
+			font-family: $open-s-b;
+			font-size: 	32px;
+			text-transform: uppercase;
+			padding-top: 20px;	
+			color:#223240;
+			p{
+				margin:0;
+				margin-top:5px;
+				span{
+					font-family: $open-s-l;
+
+				}
+			}
+		}
+
+	}
+}
